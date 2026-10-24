@@ -1,0 +1,30 @@
+# --- Sistem ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor & IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Log & sementara ---
+*.log
+npm-debug.log*
+*.tmp
+*.temp
+
+# --- Profil Chrome sementara dari skrip pengujian UI ---
+tests/.chrome-*/
+
+# --- Dependensi (bila ditambahkan di kemudian hari) ---
+node_modules/
+
+# --- Env / rahasia lokal (jangan pernah masuk repository) ---
+.env
+.env.*
+*.pem
+*.key
+token.json
+credentials.json
